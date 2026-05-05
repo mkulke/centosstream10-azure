@@ -6,6 +6,7 @@
 - jq
 - qemu-img
 - uv
+- dnf
 
 ## Build
 
