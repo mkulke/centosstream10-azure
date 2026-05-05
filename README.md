@@ -2,17 +2,34 @@
 
 ## Requirements
 
-- az
+### Build
+
 - jq
 - qemu-img
 - uv
 - dnf
+
+### Download
+
+- oras
+- gh cli
+
+### Upload
+
+- az cli
 
 ## Build
 
 ```bash
 make image.vhd
 ```
+
+## Download
+
+```bash
+make pull-oci
+```
+
 ### Upload
 
 ```bash
